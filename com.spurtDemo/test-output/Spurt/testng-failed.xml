@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Spurt]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SportMenuTest(failed)">
+    <classes>
+      <class name="TestCases.SportsTC">
+        <methods>
+          <include name="keyBoard"/>
+          <include name="report"/>
+          <include name="tearDown"/>
+          <include name="extentRep"/>
+          <include name="cricketKit"/>
+          <include name="footBall"/>
+          <include name="badminton"/>
+          <include name="grandPiano"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- TestCases.SportsTC -->
+    </classes>
+  </test> <!-- SportMenuTest(failed) -->
+</suite> <!-- Failed suite [Spurt] -->

@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">SpurtCommerce</th></tr>
+<tr><td><a href="#t0">SpurtTest</a></td><td class="num">0</td><td class="num attn">9</td><td class="num">0</td><td class="num attn">1</td><td class="num">20,434</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SpurtCommerce</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SpurtTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestCases.ElectronicsTC</td><td><a href="#m0">buySuroskie</a></td><td rowspan="1">1679490335864</td><td rowspan="1">10873</td></tr><tr><th colspan="4">SpurtTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="9">TestCases.ElectronicsTC</td><td><a href="#m1">buyAcidEye</a></td><td rowspan="1">1679490347514</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">buyAmazonTv</a></td><td rowspan="1">1679490347455</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">buyBoatSpeaker</a></td><td rowspan="1">1679490347445</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m4">buyMotorola</a></td><td rowspan="1">1679490347438</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m5">buyOneplusBand</a></td><td rowspan="1">1679490347421</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m6">buyPluto</a></td><td rowspan="1">1679490347478</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m7">buySonyTv</a></td><td rowspan="1">1679490347449</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m8">buySpeakerPrdt</a></td><td rowspan="1">1679490347488</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m9">buyTvWallMount</a></td><td rowspan="1">1679490347460</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>SpurtTest</h2><h3 id="m0">TestCases.ElectronicsTC#buySuroskie</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[contains(@class,&apos;mat-focus-indicator mat-menu-trigger&apos;)]&quot;}
+  (Session info: MicrosoftEdge=111.0.1661.44)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [cf264a72a85a11422b66b59a222b81bf, findElement {using=xpath, value=//button[contains(@class,&apos;mat-focus-indicator mat-menu-trigger&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, ms:edgeOptions: {debuggerAddress: localhost:50939}, msedge: {msedgedriverVersion: 111.0.1661.44 (fc2a57ec5a41..., userDataDir: C:\Users\Picco\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50939/devtoo..., se:cdpVersion: 111.0.1661.44, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cf264a72a85a11422b66b59a222b81bf
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+	at pageObjects.ElectronicsOBJ.allCategories(ElectronicsOBJ.java:101)
+	at TestCases.ElectronicsTC.buySuroskie(ElectronicsTC.java:355)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestCases.ElectronicsTC#buyAcidEye</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method ElectronicsTC.buyAcidEye()[pri:9, instance:TestCases.ElectronicsTC@1ed6388a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestCases.ElectronicsTC#buyAmazonTv</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method ElectronicsTC.buyAmazonTv()[pri:5, instance:TestCases.ElectronicsTC@1ed6388a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TestCases.ElectronicsTC#buyBoatSpeaker</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method ElectronicsTC.buyBoatSpeaker()[pri:3, instance:TestCases.ElectronicsTC@1ed6388a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TestCases.ElectronicsTC#buyMotorola</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method ElectronicsTC.buyMotorola()[pri:2, instance:TestCases.ElectronicsTC@1ed6388a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">TestCases.ElectronicsTC#buyOneplusBand</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method ElectronicsTC.buyOneplusBand()[pri:1, instance:TestCases.ElectronicsTC@1ed6388a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">TestCases.ElectronicsTC#buyPluto</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method ElectronicsTC.buyPluto()[pri:7, instance:TestCases.ElectronicsTC@1ed6388a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">TestCases.ElectronicsTC#buySonyTv</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method ElectronicsTC.buySonyTv()[pri:4, instance:TestCases.ElectronicsTC@1ed6388a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">TestCases.ElectronicsTC#buySpeakerPrdt</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method ElectronicsTC.buySpeakerPrdt()[pri:8, instance:TestCases.ElectronicsTC@1ed6388a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">TestCases.ElectronicsTC#buyTvWallMount</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method ElectronicsTC.buyTvWallMount()[pri:6, instance:TestCases.ElectronicsTC@1ed6388a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

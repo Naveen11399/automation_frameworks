@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SpurtCommerce">
+	<test name="SpurtTest">
+
+		<classes>
+<!-- 			<class name="TestCases.KrishnaProductTC" /> -->
+<!-- 			<class name="TestCases.SportsTC" /> -->
+			<class name="TestCases.ElectronicsTC" />
+<!-- 			<class name="TestCases.WomensTC" /> -->
+<!-- 			<class name="TestCases.StoreHomeTC" /> -->
+<!-- 			<class name="TestCases.HomeFurnitureTC" /> -->
+<!-- 			<class name="TestCases.CommonTestCase" /> -->
+<!-- 			<class name="TestCases.ElectronicsModuleTC" /> -->
+<!-- 			<class name="TestCases.StoreMenuTC" /> -->
+<!-- 			<class name="TestCases.StoreContactTC" /> -->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

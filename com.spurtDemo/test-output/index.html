@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SpurtCommerce" class="navigator-link">
+              <span class="suite-name border-failed">SpurtCommerce</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SpurtCommerce" class="navigator-link ">
+                    <span>C:\Users\Picco\eclipse-workspace\com.spurtDemo\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SpurtCommerce" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SpurtCommerce" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SpurtCommerce" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SpurtCommerce" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SpurtCommerce" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SpurtCommerce" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods, 1 failed,  9 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SpurtCommerce" class="hide-methods failed suite-SpurtCommerce"> (hide)</a> <!-- hide-methods failed suite-SpurtCommerce -->
+                      <a href="#" panel-name="suite-SpurtCommerce" class="show-methods failed suite-SpurtCommerce"> (show)</a> <!-- show-methods failed suite-SpurtCommerce -->
+                    </span>
+                    <div class="method-list-content failed suite-SpurtCommerce">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SpurtCommerce" title="TestCases.ElectronicsTC" class="method navigator-link" hash-for-method="buySuroskie">buySuroskie</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SpurtCommerce -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-SpurtCommerce" class="hide-methods skipped suite-SpurtCommerce"> (hide)</a> <!-- hide-methods skipped suite-SpurtCommerce -->
+                      <a href="#" panel-name="suite-SpurtCommerce" class="show-methods skipped suite-SpurtCommerce"> (show)</a> <!-- show-methods skipped suite-SpurtCommerce -->
+                    </span>
+                    <div class="method-list-content skipped suite-SpurtCommerce">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SpurtCommerce" title="TestCases.ElectronicsTC" class="method navigator-link" hash-for-method="buyAcidEye">buyAcidEye</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SpurtCommerce" title="TestCases.ElectronicsTC" class="method navigator-link" hash-for-method="buyAmazonTv">buyAmazonTv</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SpurtCommerce" title="TestCases.ElectronicsTC" class="method navigator-link" hash-for-method="buyBoatSpeaker">buyBoatSpeaker</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SpurtCommerce" title="TestCases.ElectronicsTC" class="method navigator-link" hash-for-method="buyMotorola">buyMotorola</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SpurtCommerce" title="TestCases.ElectronicsTC" class="method navigator-link" hash-for-method="buyOneplusBand">buyOneplusBand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SpurtCommerce" title="TestCases.ElectronicsTC" class="method navigator-link" hash-for-method="buyPluto">buyPluto</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SpurtCommerce" title="TestCases.ElectronicsTC" class="method navigator-link" hash-for-method="buySonyTv">buySonyTv</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SpurtCommerce" title="TestCases.ElectronicsTC" class="method navigator-link" hash-for-method="buySpeakerPrdt">buySpeakerPrdt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SpurtCommerce" title="TestCases.ElectronicsTC" class="method navigator-link" hash-for-method="buyTvWallMount">buyTvWallMount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-SpurtCommerce -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SpurtCommerce" class="panel SpurtCommerce">
+          <div class="suite-SpurtCommerce-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCases.ElectronicsTC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="buySuroskie">
+                  </a> <!-- buySuroskie -->
+                  <span class="method-name">buySuroskie</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[contains(@class,&apos;mat-focus-indicator mat-menu-trigger&apos;)]&quot;}
+  (Session info: MicrosoftEdge=111.0.1661.44)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [cf264a72a85a11422b66b59a222b81bf, findElement {using=xpath, value=//button[contains(@class,&apos;mat-focus-indicator mat-menu-trigger&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, ms:edgeOptions: {debuggerAddress: localhost:50939}, msedge: {msedgedriverVersion: 111.0.1661.44 (fc2a57ec5a41..., userDataDir: C:\Users\Picco\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50939/devtoo..., se:cdpVersion: 111.0.1661.44, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cf264a72a85a11422b66b59a222b81bf
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+	at pageObjects.ElectronicsOBJ.allCategories(ElectronicsOBJ.java:101)
+	at TestCases.ElectronicsTC.buySuroskie(ElectronicsTC.java:355)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SpurtCommerce-class-failed -->
+          <div class="suite-SpurtCommerce-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.ElectronicsTC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="buyAcidEye">
+                  </a> <!-- buyAcidEye -->
+                  <span class="method-name">buyAcidEye</span>
+                  <div class="stack-trace">java.lang.Throwable: Method ElectronicsTC.buyAcidEye()[pri:9, instance:TestCases.ElectronicsTC@1ed6388a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="buyAmazonTv">
+                  </a> <!-- buyAmazonTv -->
+                  <span class="method-name">buyAmazonTv</span>
+                  <div class="stack-trace">java.lang.Throwable: Method ElectronicsTC.buyAmazonTv()[pri:5, instance:TestCases.ElectronicsTC@1ed6388a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="buyBoatSpeaker">
+                  </a> <!-- buyBoatSpeaker -->
+                  <span class="method-name">buyBoatSpeaker</span>
+                  <div class="stack-trace">java.lang.Throwable: Method ElectronicsTC.buyBoatSpeaker()[pri:3, instance:TestCases.ElectronicsTC@1ed6388a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="buyMotorola">
+                  </a> <!-- buyMotorola -->
+                  <span class="method-name">buyMotorola</span>
+                  <div class="stack-trace">java.lang.Throwable: Method ElectronicsTC.buyMotorola()[pri:2, instance:TestCases.ElectronicsTC@1ed6388a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="buyOneplusBand">
+                  </a> <!-- buyOneplusBand -->
+                  <span class="method-name">buyOneplusBand</span>
+                  <div class="stack-trace">java.lang.Throwable: Method ElectronicsTC.buyOneplusBand()[pri:1, instance:TestCases.ElectronicsTC@1ed6388a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="buyPluto">
+                  </a> <!-- buyPluto -->
+                  <span class="method-name">buyPluto</span>
+                  <div class="stack-trace">java.lang.Throwable: Method ElectronicsTC.buyPluto()[pri:7, instance:TestCases.ElectronicsTC@1ed6388a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="buySonyTv">
+                  </a> <!-- buySonyTv -->
+                  <span class="method-name">buySonyTv</span>
+                  <div class="stack-trace">java.lang.Throwable: Method ElectronicsTC.buySonyTv()[pri:4, instance:TestCases.ElectronicsTC@1ed6388a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="buySpeakerPrdt">
+                  </a> <!-- buySpeakerPrdt -->
+                  <span class="method-name">buySpeakerPrdt</span>
+                  <div class="stack-trace">java.lang.Throwable: Method ElectronicsTC.buySpeakerPrdt()[pri:8, instance:TestCases.ElectronicsTC@1ed6388a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="buyTvWallMount">
+                  </a> <!-- buyTvWallMount -->
+                  <span class="method-name">buyTvWallMount</span>
+                  <div class="stack-trace">java.lang.Throwable: Method ElectronicsTC.buyTvWallMount()[pri:6, instance:TestCases.ElectronicsTC@1ed6388a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SpurtCommerce-class-skipped -->
+        </div> <!-- panel SpurtCommerce -->
+        <div panel-name="test-xml-SpurtCommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Picco\eclipse-workspace\com.spurtDemo\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SpurtCommerce&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SpurtTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.ElectronicsTC&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SpurtTest --&gt;
+&lt;/suite&gt; &lt;!-- SpurtCommerce --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SpurtCommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SpurtCommerce</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SpurtTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SpurtCommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SpurtCommerce</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SpurtCommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SpurtCommerce</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SpurtCommerce');
+function tableData_SpurtCommerce() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'buySuroskie')
+data.setCell(0, 2, 'TestCases.ElectronicsTC')
+data.setCell(0, 3, 10873);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'buySonyTv')
+data.setCell(1, 2, 'TestCases.ElectronicsTC')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'buyBoatSpeaker')
+data.setCell(2, 2, 'TestCases.ElectronicsTC')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'buyPluto')
+data.setCell(3, 2, 'TestCases.ElectronicsTC')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'buyTvWallMount')
+data.setCell(4, 2, 'TestCases.ElectronicsTC')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'buyOneplusBand')
+data.setCell(5, 2, 'TestCases.ElectronicsTC')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'buyMotorola')
+data.setCell(6, 2, 'TestCases.ElectronicsTC')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'buyAmazonTv')
+data.setCell(7, 2, 'TestCases.ElectronicsTC')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'buyAcidEye')
+data.setCell(8, 2, 'TestCases.ElectronicsTC')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'buySpeakerPrdt')
+data.setCell(9, 2, 'TestCases.ElectronicsTC')
+data.setCell(9, 3, 0);
+window.suiteTableData['SpurtCommerce']= { tableData: data, tableDiv: 'times-div-SpurtCommerce'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <div id="times-div-SpurtCommerce">
+              </div> <!-- times-div-SpurtCommerce -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SpurtCommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SpurtCommerce</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SpurtCommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SpurtCommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.ElectronicsTC</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extentRep</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">301 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">buySuroskie</span>
+                <span class="method-start">8647 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">report([TestResult name=buySuroskie status=FAILURE method=ElectronicsTC.buySuroskie()[pri:0, instance:TestC...)</span>
+                <span class="method-start">19539 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">buyOneplusBand</span>
+                <span class="method-start">20204 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">buyMotorola</span>
+                <span class="method-start">20221 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">buyBoatSpeaker</span>
+                <span class="method-start">20228 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">buySonyTv</span>
+                <span class="method-start">20232 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">buyAmazonTv</span>
+                <span class="method-start">20238 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">buyTvWallMount</span>
+                <span class="method-start">20243 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">buyPluto</span>
+                <span class="method-start">20261 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">buySpeakerPrdt</span>
+                <span class="method-start">20271 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">buyAcidEye</span>
+                <span class="method-start">20297 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20308 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
