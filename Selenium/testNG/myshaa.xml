@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Myshaa">
+<test name="functional">
+<classes>
+<class name="testNG.Myshaa"></class>
+<class name="testNG.MyshaaJob"></class>
+</classes>
+</test>
+
+</suite>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Myshaa]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="functional(failed)">
+    <classes>
+      <class name="testNG.Myshaa">
+        <methods>
+          <include name="launchTheBrowser"/>
+          <include name="companyPage"/>
+          <include name="dynamic"/>
+          <include name="LoginPage"/>
+        </methods>
+      </class> <!-- testNG.Myshaa -->
+      <class name="testNG.MyshaaJob">
+        <methods>
+          <include name="calendar"/>
+          <include name="LoginPage"/>
+          <include name="launchTheBrowser"/>
+          <include name="save"/>
+          <include name="otherSkills"/>
+          <include name="jobPage"/>
+          <include name="industry"/>
+          <include name="salaryRange"/>
+          <include name="secondarySkills"/>
+          <include name="company"/>
+          <include name="jobDescription"/>
+          <include name="cadidatesReq"/>
+          <include name="jobTittle"/>
+          <include name="jobRole"/>
+          <include name="primary"/>
+          <include name="createButton"/>
+          <include name="jobLocation"/>
+          <include name="workExprience"/>
+        </methods>
+      </class> <!-- testNG.MyshaaJob -->
+    </classes>
+  </test> <!-- functional(failed) -->
+</suite> <!-- Failed suite [Myshaa] -->
