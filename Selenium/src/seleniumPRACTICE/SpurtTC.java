@@ -29,7 +29,7 @@ public class SpurtTC {
 
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Picco\\Downloads\\selenium\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.get("http://3.6.249.0/admin/#/auth/login");
+		driver.get("");
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
