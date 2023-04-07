@@ -25,7 +25,7 @@ public class Myshaa {
 		startTime=System.currentTimeMillis();
 		System.setProperty("webdriver.chrome.driver", "D:\\\\\\\\seleniumJars//chromedriver.exe");
 		driver =new  ChromeDriver();
-		driver.get("http://13.126.197.227/");
+		driver.get("");
 		driver.manage().window().maximize();
 
 	}
@@ -45,7 +45,7 @@ public class Myshaa {
 	}
 	@Test(priority=1)
 	public void companyPage() throws InterruptedException {
-		driver.navigate().to("http://13.126.197.227/company/companies");
+		driver.navigate().to("");
 		}
 	
 	
