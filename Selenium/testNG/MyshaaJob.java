@@ -24,7 +24,7 @@ public class MyshaaJob {
 		startTime=System.currentTimeMillis();
 		System.setProperty("webdriver.chrome.driver", "/home/mahesh/Downloads/selenium/chromedriver");
 		driver =new  ChromeDriver();
-		driver.get("http://13.126.197.227/");
+		driver.get(");
 		driver.manage().window().maximize();
 
 	}
